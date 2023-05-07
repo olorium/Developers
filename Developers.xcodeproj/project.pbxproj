@@ -12,6 +12,8 @@
 		8BBDC7682A043B8E003F6D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBDC7672A043B8E003F6D52 /* Assets.xcassets */; };
 		8BBDC76B2A043B8E003F6D52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBDC76A2A043B8E003F6D52 /* Preview Assets.xcassets */; };
 		8BBDC7752A04430C003F6D52 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBDC7742A04430C003F6D52 /* CardView.swift */; };
+		8BC411682A0812E60061C5A4 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC411672A0812E60061C5A4 /* CardModel.swift */; };
+		8BC4116A2A0813930061C5A4 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC411692A0813930061C5A4 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8BBDC76A2A043B8E003F6D52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BBDC7712A043D77003F6D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8BBDC7742A04430C003F6D52 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8BC411672A0812E60061C5A4 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		8BC411692A0813930061C5A4 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8BBDC7742A04430C003F6D52 /* CardView.swift */,
 				8BBDC7672A043B8E003F6D52 /* Assets.xcassets */,
 				8BBDC7692A043B8E003F6D52 /* Preview Content */,
+				8BC411672A0812E60061C5A4 /* CardModel.swift */,
+				8BC411692A0813930061C5A4 /* CardData.swift */,
 			);
 			path = Developers;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC4116A2A0813930061C5A4 /* CardData.swift in Sources */,
 				8BBDC7662A043B8D003F6D52 /* ContentView.swift in Sources */,
+				8BC411682A0812E60061C5A4 /* CardModel.swift in Sources */,
 				8BBDC7752A04430C003F6D52 /* CardView.swift in Sources */,
 				8BBDC7642A043B8D003F6D52 /* DevelopersApp.swift in Sources */,
 			);
