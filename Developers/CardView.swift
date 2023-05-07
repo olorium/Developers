@@ -13,6 +13,7 @@ struct CardView: View {
 	@State private var fadeIn = false
 	@State private var moveDownward = false
 	@State private var moveUpward = false
+	@State private var showAlert = false
 	
 	// MARK: - Body
     var body: some View {
@@ -34,7 +35,7 @@ struct CardView: View {
 			.offset(y: moveDownward ? -218 : -300)
 			
 			Button {
-				print("")
+				showAlert.toggle()
 			} label: {
 				Text(card.callToAction.uppercased())
 					.fontWeight(.heavy)
@@ -63,6 +64,9 @@ struct CardView: View {
 				moveDownward.toggle()
 				moveUpward.toggle()
 			}
+		}
+		.alert(isPresented: $showAlert) {
+			Alert(title: Text(card.title), message: Text(card.message), dismissButton: .default(Text("Ok")))
 		}
     }
 }
